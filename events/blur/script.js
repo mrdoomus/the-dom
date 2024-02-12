@@ -1,3 +1,3 @@
-document.getElementById("blurInput").addEventListener("blur", function () {
-  this.style.backgroundColor = "";
+document.getElementById("blurInput").addEventListener("blur", function (event) {
+  event.target.style.backgroundColor = "purple";
 });

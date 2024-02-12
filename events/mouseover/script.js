@@ -1,5 +1,5 @@
 document
   .getElementById("hoverElement")
-  .addEventListener("mouseover", function () {
-    this.style.color = "blue";
+  .addEventListener("mouseover", function (event) {
+    event.target.style.color = "blue";
   });
