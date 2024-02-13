@@ -1,1 +1,2 @@
-document.querySelector(".highlight").style.color = "red";
+const selectedElement = document.querySelector("div");
+selectedElement.classList.add("highlight");
